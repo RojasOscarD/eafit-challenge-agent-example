@@ -150,7 +150,7 @@ vs-agent-chart:
     enableCors: true
   private:
     whitelistSourceRange: ""
-      host: ""
+    host: ""
   extraEnv:
     - name: AGENT_WALLET_ID
       value: "Example Agent"
