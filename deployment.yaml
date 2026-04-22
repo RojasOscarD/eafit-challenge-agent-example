@@ -13,7 +13,7 @@ chartVersion: v1.11.2
 global:
   domain: eafit.testnet.verana.network
 
-nameOverride: 'Nodo-agent-chart'
+nameOverride: 'nodo-agent-chart'
 
 # Credential definition ID for user authentication (injected from config.env by workflow)
 credentialDefinitionId: ''
