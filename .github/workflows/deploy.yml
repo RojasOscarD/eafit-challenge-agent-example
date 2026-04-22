@@ -106,7 +106,7 @@ jobs:
 
           helm upgrade --install "$RELEASE_NAME" "$CHART_SOURCE" \
             --version "$CHART_VERSION" \
-            --namespace "$CHART_NAMESPACE" --create-namespace \
+            --namespace "$CHART_NAMESPACE" \
             --values /tmp/helm-values.yaml \
             --set chatbot.secret.OPENAI_API_KEY="${{ secrets.EXAMPLE_AGENT_OPENAI_API_KEY }}" \
             --set chatbot.secret.MCP_CONFIG_ENCRYPTION_KEY="${{ secrets.EXAMPLE_AGENT_MCP_CONFIG_ENCRYPTION_KEY }}" \
