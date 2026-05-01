@@ -1,0 +1,6 @@
+{
+  "/dashboard/page": "app/dashboard/page.js",
+  "/api/bots/route": "app/api/bots/route.js",
+  "/bots/[id]/edit/page": "app/bots/[id]/edit/page.js",
+  "/api/bots/[id]/route": "app/api/bots/[id]/route.js"
+}
